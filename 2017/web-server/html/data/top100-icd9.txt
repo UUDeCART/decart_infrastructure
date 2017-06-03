@@ -1,0 +1,100 @@
+I. Infectious & Parasitic Diseases		Yes	034.0	Strep throat
+I. Infectious & Parasitic Diseases		Yes	079.99	Viral infection, unspec.
+I. Infectious & Parasitic Diseases		Yes	078.10	Warts, viral, unspec.
+II. Neoplasms	Benign Neoplasms	Yes	216.9	Skin, unspec.
+III. Endocrine, Nutritional & Metabolic Disorders		Yes	250.01	Diabetes I, uncomplicated
+III. Endocrine, Nutritional & Metabolic Disorders		Yes	250.00	Diabetes II, uncomplicated
+III. Endocrine, Nutritional & Metabolic Disorders		Yes	271.9	Glucose intolerance
+III. Endocrine, Nutritional & Metabolic Disorders		Yes	272.0	Hypercholesterolemia, pure
+III. Endocrine, Nutritional & Metabolic Disorders		Yes	244.9	Hypothyroidism, unspec.
+III. Endocrine, Nutritional & Metabolic Disorders		Yes	278.00	Obesity, NOS
+III. Endocrine, Nutritional & Metabolic Disorders		Yes	278.02	Overweight
+IV. Blood Diseases		Yes	280.9	Anemia, iron deficiency, unspec.
+IV. Blood Diseases		Yes	285.9	Anemia, other, unspec.
+V. Mental Disorders		Yes	300.00	Anxiety state, unspec.
+V. Mental Disorders		Yes	314.01	Attention deficit, w/ hyperactivity
+V. Mental Disorders		Yes	311	Depressive disorder, NOS
+V. Mental Disorders		Yes	307.40	Insomnia, sleep disorder, unspec.
+V. Mental Disorders		Yes	305.1	Tobacco abuse
+VI. Nervous System & Sense Organ Disorders	Ear Diseases	Yes	380.4	Cerumen impaction
+VI. Nervous System & Sense Organ Disorders	Ear Diseases	Yes	380.10	Otitis externa, unspec.
+VI. Nervous System & Sense Organ Disorders	Ear Diseases	Yes	382.00	Otitis media, acute
+VI. Nervous System & Sense Organ Disorders	Eye Diseases	Yes	372.30	Conjunctivitis, unspec.
+VI. Nervous System & Sense Organ Disorders	Nervous System Diseases	Yes	434.91	Cerebral artery occlusion w/ infarction, unspec.
+VI. Nervous System & Sense Organ Disorders	Nervous System Diseases	Yes	345.90	Epilepsy, unspec., not intractable
+VI. Nervous System & Sense Organ Disorders	Nervous System Diseases	Yes	346.90	Migraine, unspec., not intractable
+VII. Circulatory System		Yes	427.31	Atrial fibrillation
+VII. Circulatory System		Yes	414.9	Chronic ischemic heart disease, unspec.
+VII. Circulatory System		Yes	796.2	Elevated BP w/o hypertension
+VII. Circulatory System		Yes	428.0	Heart failure, congestive, unspec.
+VII. Circulatory System		Yes	401.1	Hypertension, benign
+VII. Circulatory System		Yes	401.9	Hypertension, unspec.
+VII. Circulatory System		Yes	451.19	Phlebitis, deep, lower extrem., other
+VIII. Respiratory System		Yes	493.90	Asthma, unspec.
+VIII. Respiratory System		Yes	466.0	Bronchitis, acute
+VIII. Respiratory System		Yes	496	COPD, NOS
+VIII. Respiratory System		Yes	462	Pharyngitis, acute
+VIII. Respiratory System		Yes	486	Pneumonia, unspec.
+VIII. Respiratory System		Yes	477.9	Rhinitis, allergic, cause unspec.
+VIII. Respiratory System		Yes	461.9	Sinusitis, acute, NOS
+VIII. Respiratory System		Yes	465.9	Upper respiratory infection, acute, NOS
+IX. Digestive System		Yes	564.00 	Constipation, unspec.
+IX. Digestive System		Yes	558.9	Gastroenteritis, noninfectious, unspec.
+IX. Digestive System		Yes	530.81	Gastroesophageal reflux, no esophagitis
+IX. Digestive System		Yes	455.6	Hemorrhoids, NOS
+X. Genitourinary System	Disorders of Menstruation	Yes	627.9	Menopausal disorders, unspec.
+X. Genitourinary System	Disorders of Menstruation	Yes	626.2	Menstruation, excessive/frequent
+X. Genitourinary System	Female Genital Organ Diseases	Yes	616.10	Vaginitis/vulvitis, unspec.
+X. Genitourinary System	Male Genital Organ Diseases	Yes	600.00	BPH/LUTS w/o obstruction
+X. Genitourinary System	Male Genital Organ Diseases	Yes	601.9	Prostatitis, NOS
+X. Genitourinary System	Urinary System Diseases	Yes	595.0	Cystitis, acute
+X. Genitourinary System	Urinary System Diseases	Yes	599.0	Urinary tract infection, unspec./pyuria
+XI. Pregnancy, Childbirth		Yes	V24.2	Postpartum follow-up, routine
+XI. Pregnancy, Childbirth		Yes	V22.0	Prenatal care, normal, first pregnancy
+XI. Pregnancy, Childbirth		Yes	V22.1	Prenatal care, normal, other pregnancy
+XII. Skin, Subcutaneous Tissue		Yes	706.1	Acne, other
+XII. Skin, Subcutaneous Tissue		Yes	682.9	Cellulitis/abscess, unspec.
+XII. Skin, Subcutaneous Tissue		Yes	692.9	Contact dermatitis, NOS
+XII. Skin, Subcutaneous Tissue		Yes	691.8	Eczema, atopic dermatitis
+XII. Skin, Subcutaneous Tissue		Yes	709.9	Other skin disease, unspec.
+XII. Skin, Subcutaneous Tissue		Yes	706.2	Sebaceous cyst
+XIII. Musculoskeletal & Connective Tissue		Yes	716.90	Arthropathy, unspec.
+XIII. Musculoskeletal & Connective Tissue		Yes	724.4	Back pain w/ radiation, unspec.
+XIII. Musculoskeletal & Connective Tissue		Yes	723.9	Cervical disorder, NOS
+XIII. Musculoskeletal & Connective Tissue		Yes	729.1	Fibromyalgia/myositis, unspec.
+XIII. Musculoskeletal & Connective Tissue		Yes	715.90	Osteoarthrosis, unspec.
+XIII. Musculoskeletal & Connective Tissue		Yes	729.5	Pain in limb
+XIII. Musculoskeletal & Connective Tissue		Yes	726.10	Rotator cuff/shoulder synd., unspec.
+XIII. Musculoskeletal & Connective Tissue		Yes	727.00	Synovitis/tenosynovitis, unspec.
+XVI. Signs & Symptoms		Yes	789.00	Abdominal pain/colic, unspec.
+XVI. Signs & Symptoms		Yes	783.21	Abnormal loss of weight
+XVI. Signs & Symptoms		Yes	795.01	Abnormal Pap, ASC-US
+XVI. Signs & Symptoms		Yes	795.00	Abnormal Pap, glandular, NOS
+XVI. Signs & Symptoms		Yes	786.50	Chest pain, unspec.
+XVI. Signs & Symptoms		Yes	786.2	Cough
+XVI. Signs & Symptoms		Yes	787.91	Diarrhea, NOS
+XVI. Signs & Symptoms		Yes	780.4	Dizziness/vertigo, NOS
+XVI. Signs & Symptoms		Yes	788.1	Dysuria
+XVI. Signs & Symptoms		Yes	782.3	Edema, localized, NOS
+XVI. Signs & Symptoms		Yes	780.79	Fatigue and malaise, other
+XVI. Signs & Symptoms		Yes	780.60	Fever, unspec.
+XVI. Signs & Symptoms		Yes	784.0	Headache, unspec.
+XVI. Signs & Symptoms		Yes	787.01	Nausea w/ vomiting
+XVI. Signs & Symptoms		Yes	719.46	Pain, knee
+XVI. Signs & Symptoms		Yes	724.2	Pain, low back
+XVI. Signs & Symptoms		Yes	785.1	Palpitations
+XVI. Signs & Symptoms		Yes	782.1	Rash, nonvesicular, unspec.
+XVI. Signs & Symptoms		Yes	786.05	Shortness of breath
+XVI. Signs & Symptoms		Yes	788.41	Urinary frequency
+XVII. Injuries & Adverse Effects	Dislocations, Sprains & Strains	Yes	845.00	Sprain/strain: ankle, unspec.
+XVII. Injuries & Adverse Effects	Dislocations, Sprains & Strains	Yes	844.9	Sprain/strain: knee/leg, unspec.
+XVII. Injuries & Adverse Effects	Dislocations, Sprains & Strains	Yes	847.0	Sprain/strain: neck, unspec.
+XVII. Injuries & Adverse Effects	Dislocations, Sprains & Strains	Yes	840.9	Sprain/strain: shoulder/arm, unspec.
+XVII. Injuries & Adverse Effects	Other Trauma, Adverse Effects	Yes	924.9	Contusion, unspec.
+XVIII. Supplemental Classification		Yes	V25.40	Contraception surveillance, unspec.
+XVIII. Supplemental Classification		Yes	V25.02	Contraception, other (diaphragm, etc.)
+XVIII. Supplemental Classification		Yes	V72.31	Gynecological exam
+XVIII. Supplemental Classification		Yes	V58.69	High-risk medication, long-term use
+XVIII. Supplemental Classification		Yes	V04.81	Immunization, influenza
+XVIII. Supplemental Classification		Yes	V70.0	Well adult exam
+XVIII. Supplemental Classification		Yes	V20.2	Well child check
