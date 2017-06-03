@@ -74,6 +74,7 @@ RUN pip install pydicom \
     pycontextnlp \
     radnlp \
     fhirclient \
+    pivottablejs \
     girder_client
 
 

@@ -1,7 +1,7 @@
 version: '2'
 services:
   notebook:
-    build: .
+    build: ./jupyter
     ports:
       - "8989:8888"
     environment:
@@ -51,7 +51,5 @@ services:
         - AUTH_USER=jovyan
         - AUTH_PASSWORD=jovyan
         - HTTP_ENABLED=false
-    #environment:
-    #    - NGINX_HOST=foobar.com
-    #    - NGINX_PORT=80
-    #command: /bin/bash -c "envsubst < /etc/nginx/conf.d/mysite.template > /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;'"
+    ports:
+        - "2212:22"
