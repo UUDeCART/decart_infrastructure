@@ -18,6 +18,7 @@ RUN apt-get update && apt-get upgrade -y && apt-get install -y \
       libxrender-dev \
       libfontconfig-dev \
       libffi-dev \
+      rsync \
   && rm -rf /var/lib/apt/lists/*
 
 
