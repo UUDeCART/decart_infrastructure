@@ -1,0 +1,25 @@
+version: '2'
+services:
+  notebook:
+    build: .
+    ports:
+      - "8778:8888"
+    environment:
+      - PASSWORD=bmi6950
+      - USE_HTTPS=yes
+    volumes:
+      - /Users/brian/Code/:/home/jovyan/work
+      - /Users/brian/Bdrive/UUDS4HealthData/Data:/home/jovyan/DATA
+  wordpress:
+    image: wordpress
+    ports:
+      - "8081:80"
+    environment:
+      - WORDPRESS_DB_PASSWORD=uuds4health
+      - USE_HTTPS=yes
+    volumes:
+        - /Users/brian/Bdrive/BD2KR25/Wordpress/:/data/wordpress
+  mysql:
+    image: mysql # mariadb
+    environment:
+      - MYSQL_ROOT_PASSWORD=uuds4health_wp
