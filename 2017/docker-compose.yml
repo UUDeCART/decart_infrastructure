@@ -8,8 +8,8 @@ services:
       - PASSWORD=bmi6950
       - USE_HTTPS=yes
     volumes:
-      - /Users/brian/Code/:/home/jovyan/work
-      - /Users/brian/Bdrive/6950:/home/jovyan/DATA
+      - /Users/brian/Code/UUDeCART/:/home/jovyan/work
+      - /Users/brian/Bdrive/UUDS4HealthData/Data:/home/jovyan/DATA:ro
     links:
       - mysolr
       - mynlp
@@ -39,11 +39,6 @@ services:
     build: ./web-server
     ports:
         - "8080:80"
-  sftp:
-    image: atmoz/sftp
-    ports:
-        - "2222:22"
-    command: jovyan:jovyan:1001
   sshserver:
     build: ./ssh-server
     environment:
@@ -53,3 +48,5 @@ services:
         - HTTP_ENABLED=false
     ports:
         - "2212:22"
+  orientdb:
+      image: orientdb:latest
