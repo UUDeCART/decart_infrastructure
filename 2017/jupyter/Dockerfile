@@ -76,7 +76,8 @@ RUN pip install pydicom \
     radnlp \
     fhirclient \
     pivottablejs \
-    girder_client
+    girder_client \
+    nose
 
 
 WORKDIR /home/jovyan
