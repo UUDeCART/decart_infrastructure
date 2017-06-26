@@ -9,6 +9,6 @@ MAINTAINER chapmanbe <brian.chapman@utah.edu>
 RUN apk add --no-cache bash bash-completion
 RUN adduser -D -h /home/jovyan -s /bin/bash -u 1000 jovyan && \
     echo "jovyan:jovyan" | chpasswd && \ 
-    passwd -d root
-
+    passwd -d root && \
+    sed -i "s/PermitRootLogin yes/PermitRootLogin no/" /etc/ssh/sshd_config
 
