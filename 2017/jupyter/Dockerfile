@@ -19,6 +19,7 @@ RUN apt-get update && apt-get upgrade -y && apt-get install -y \
       libfontconfig-dev \
       libffi-dev \
       rsync \
+      mongodb-clients \
   && rm -rf /var/lib/apt/lists/*
 
 
@@ -77,10 +78,13 @@ RUN pip install pydicom \
     fhirclient \
     pivottablejs \
     girder_client \
-    nose
+    nose \
+    pyorient
 
 
 WORKDIR /home/jovyan
+ADD decart_welcome.ipynb /home/jovyan/work/decart_welcome.ipynb
+ADD media /home/jovyan/work/media
 
 # RUN nbstripout --install
 # "missing" unix commands less, tree
