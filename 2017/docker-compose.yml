@@ -8,7 +8,6 @@ services:
       - PASSWORD=bmi6950
       - USE_HTTPS=yes
     volumes:
-      - /Users/brian/Code/UUDeCART/:/home/jovyan/work
       - /Users/brian/Bdrive/UUDS4HealthData/Data:/home/jovyan/DATA:ro
     links:
       - mysolr

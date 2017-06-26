@@ -83,8 +83,8 @@ RUN pip install pydicom \
 
 
 WORKDIR /home/jovyan
-ADD decart_welcome.ipynb /home/jovyan/work/decart_welcome.ipynb
-ADD media /home/jovyan/work/media
+ADD decart_welcome.ipynb /home/jovyan/decart_welcome.ipynb
+ADD media /home/jovyan/media
 
 # RUN nbstripout --install
 # "missing" unix commands less, tree
