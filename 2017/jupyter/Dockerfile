@@ -86,7 +86,7 @@ RUN R -e 'install.packages(c("tidyverse","tidytext","icd","RMySQL","DBI","dbplyr
 WORKDIR /home/jovyan
 ADD decart_welcome.ipynb /home/jovyan/work/decart_welcome.ipynb
 ADD media /home/jovyan/work/media
-
+ADD dbmi_welcome.ipynb /home/jovyan/work/dbmi_welcome.ipynb
 RUN conda install -y -c conda-forge nbgrader
 # RUN nbstripout --install
 CMD ["start-notebook.sh"]
