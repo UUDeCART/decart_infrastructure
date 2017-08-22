@@ -68,7 +68,6 @@ RUN conda update conda -y && conda install -y \
 
 RUN conda install -y  -c  https://conda.anaconda.org/simpleitk SimpleITK 
 RUN conda install -y  -c conda-forge nbstripout
-
 RUN pip install pydicom \
     textblob \
     ipythonblocks \
@@ -88,5 +87,6 @@ WORKDIR /home/jovyan
 ADD decart_welcome.ipynb /home/jovyan/work/decart_welcome.ipynb
 ADD media /home/jovyan/work/media
 
+RUN conda install -y -c conda-forge nbgrader
 # RUN nbstripout --install
 CMD ["start-notebook.sh"]
